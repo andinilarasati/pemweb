@@ -53,10 +53,10 @@
       <div class="card shadow-lg p-4">
         <div class="card-body text-center">
           <!-- Foto Profil -->
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAB3UlEQVR4Xu3aQU7DMBBF0ZnEEqDCiAFooAVooAUKoAKWgAWigBWgAVooAVqkA7aCq3dtHdnH1nrTznPM/v2b3WZLKQ8jyPI8jyPI8jyPI8jyPI8jxOUxxAAiWzgKJpJqxgBDPVMyCLsAUNAE+YCEAXXQFe0BpYAEDVUIXHABjAiUYg6IpzEMxCDoQUxiXkBmYxYMDVEAKwqR0gcpoEf8RW3HhTiTxmYy2rkUwARVdGJHLKcHmkDMWLSN1xlhViSVd5TPRtXgCYmXGSpGVcWa8AWZgrjSpf8HmaCuNqFwz1OeGEtn+q1oAQMA4bCVCFcydFuFIlYJKgQaIEfGHVjkFqxSq1HqMGf4zDf0ZGBgGWRAXU4HUkjUXwrT2aSTUV8KeJ8DxAWHI8jxPI8jyPI8jyPI8jyPI8jwPnAZb5WaDNFRRWAAAAAElFTkSuQmCC"
-               alt="Foto Profil Andini"
-               class="rounded-circle shadow mb-3"
-               width="110">
+          <img src="{{ asset('front/assets/fotoandin.jpg') }}"
+     alt="Foto Profil Andini"
+     class="rounded-circle img-thumbnail shadow-sm mb-3"
+     style="width: 180px; border: 5px solid rgb(253, 13, 93);">
 
           <!-- Informasi Dasar -->
           <h4 class="mb-0 text-danger">Andini Larasati</h4>
